@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin:5%;
+}
+.topic{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 25px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10vh;
+}
+/* ***************GEneral Buttons ************ */
+.trans-btn{
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: inherit;
+    border-radius: 20px;
+    color:hsl(322, 100%, 66%);
+    font-size: 1rem;
+    padding: 0 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.trans-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+
+}
+
+button.big-btn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    padding: 1em 4em;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button.big-btn:hover{
+    background-color: #fff;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+
+}
+
+/* ************************Section 1*************** */
+.section1{
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+.p1{
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 2.5em;
+}
+
+/* ***********Image after section 1********* */
+
+
+.screen-mockup{
+    display: block;
+    /* width: 500px; */
+    margin: 8rem auto;
+    align-self: center;
+    max-width: 80%;
+    
+}
+
+
+/* **********Section 2******Achievement part */
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    color: hsl(192, 100%, 9%);
+    font-size: 1.4em;
+}
+
+.counts{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.6em;
+    color: hsl(192, 100%, 9%);
+
+}
+
+
+
+/* *********************************Middle section********************** */
+
+.middle-section-bg{
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 61vh;
+    /* margin: 0 -5%; */
+    
+}
+.middle-section-image{
+    width: 40%;
+    display: block;
+    /* height: 60vh; */
+}
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    /* width: 90%; */
+}
+.middle-section-text{
+    width: 40%;
+}
+
+
+/* ***************THe bottom part */
+.bottom{
+    text-align: center;
+}
+
+
+/* **********the footer gangan*************** */
+
+
+
+
+.above-footer{
+    background-image: url(./images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 158px;
+    margin-top: 20vh;
+}
+
+
+#the-footer {
+   color: #fff;
+  background-color: #00252E;
+
+}
+
+.footer-base {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+
+}
+.footer-info{
+    max-width: 30%;
+}
+
+.footer-form{
+    max-width: 40%;
+}
+.space{
+    margin-bottom: 30px;
+}
+.space-up{
+    padding-top: 30px;
+}
+.form-text{
+    padding-right: 30%;
+}
+.fab{
+    padding-right: 20px;
+}
+
+#footer-email{
+    width: 62%;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+#footer-btn{
+    width: 25%;
+    height: 50px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-right: 20px;
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+

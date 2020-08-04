@@ -1,0 +1,132 @@
+html,body{
+ overflow-x: hidden;
+}
+
+header{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .trans-btn{
+  max-width: fit-content;
+  align-self: center;
+  margin-top: 4vh;
+  padding: 0.8rem 2rem;
+}
+
+button.big-btn{
+  font-size: 1rem !important ;
+  padding: 1em 2em !important;
+  border-radius: 40px;
+  color: #ffffff;
+
+}
+
+
+h1.topic{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  
+}
+
+
+
+/* *********************Below styles the first section heading section************* */
+
+.section1 .p1{
+  width: 80%;
+  margin: 0 auto;
+  /* font-weight: 600; */
+  font-size: 1em;
+  margin-bottom: 2.5em;
+}
+
+
+
+
+/* ************************This styles the section 2 */
+div.section2{
+  font-size: 1rem;
+}
+
+h1.counts{
+  font-size: 2rem;
+}
+
+/* *******************This styles the middle section************ */
+
+.middle-section{
+  flex-direction: column;
+}
+
+.middle-section .middle-section-text{
+  width: 100% ;
+  /* text-align: center; */
+  margin: 1rem auto;
+}
+
+.middle-section-image{
+  width: 100% !important;
+  /* height: 60vh; */
+  margin-bottom: 20px;
+}
+
+/* *************This styles the footer ************ */
+#the-footer  .footer-base{
+  flex-direction: column;
+  max-width: 98vw;
+  
+}
+
+#the-footer .footer-info{
+  max-width: 100% ;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 2rem;
+}
+
+#the-footer .footer-form{
+  max-width: 100% ;
+}
+
+#the-footer .form-text{
+  padding-right: 0;
+}
+
+#the-footer #footer-email, #the-footer #footer-btn{
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 2rem;
+
+}
+
+#the-footer #footer-btn{
+  width: 25%;
+  margin-right: 5px;
+
+}
+
+#the-footer .space{
+  margin-bottom: 15px;
+}
+#the-footer .space-up{
+  padding-top: 5px;
+}
+
+
+#the-footer i{
+  font-size: 1.5rem;
+
+}
+
+#the-footer h1{
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+#the-footer p{
+  font-size: 0.8rem;
+}
